@@ -29,7 +29,7 @@ CHECK (char_length(title) >= 50 AND char_length(title) <= 70);"
 
 # Insert categories into the categories table
 
-psql postgres://neondb_owner:npg_uDo6HEMxkt5O@ep-square-feather-a2frq7rg-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require -f seed.sql
+psql postgres://neondb_owner:npg_...-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require -f seed.sql
 
 # seeding by api:
 
